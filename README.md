@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/moh-fajri/qmail.svg?branch=master)](https://travis-ci.com/moh-fajri/qmail)
 
-qmail is send email with aws ses
+qmail is send email using aws ses
 
 ## Instalation
 

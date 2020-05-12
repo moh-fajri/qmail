@@ -1,0 +1,14 @@
+language: go
+sudo: false
+go:
+  - 1.11.x
+  - 1.12.x
+  - 1.13.x
+env:
+  - GO111MODULE=on
+go_import_path: github.com/moh-fajri/qmail
+install:
+  - go mod tidy
+script:
+  - go test -i -race ./...
+#- go test -v -run=TestNoRace -p=1 ./...
